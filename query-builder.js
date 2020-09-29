@@ -1,4 +1,4 @@
-const { camelToSnakeCase } = require('../utils');
+const { camelToSnakeCase } = require('./utils');
 
 module.exports.createInsertStatement = createInsertStatement;
 
