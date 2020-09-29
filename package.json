@@ -1,0 +1,24 @@
+{
+    "name": "litlib-pgdb",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --bail --exit",
+        "test-coverage": "nyc mocha --bail --exit"
+    },
+    "author": "Ben Steve <benzstevox@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "pg": "^8.3.3"
+    },
+    "peerDependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^7.2.0",
+        "nyc": "^15.1.0"
+    }
+}
